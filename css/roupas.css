@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'neo';
+}
+
+@font-face {
+    font-family: 'neo';
+    src: url("/doc/neo_cybern/NEO\ CYBERN.otf");
+}
+
+.naves {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    color: #2EFDFD;
+    height: 80px;
+    padding-inline: 10px;
+}
+
+.list{
+    list-style: none;
+    font-size: 30px;
+    text-align: end;
+}
+
+.roupa{
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+}
+
+a.inicio {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.inicio:hover {
+    color: #0cadb9;;
+}
+
+.list{
+    list-style: none;
+    font-size: 30px;
+    text-align: end;
+}
+
+section {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 100px;
+    height: 100dvh;
+    background: linear-gradient(to bottom, #FF04B2, #7E1D60);
+    
+}
+
+.rodape {
+    color: #2EFDFD;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+}
+
+.selecione {
+    color: #01EBFC;
+    background-color: black;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: #01EBFC;
+    width: 900px;
+    height: 300px;
+    padding-left: 20px;
+}
+
+.jogos {
+    font-size: 30px;
+}
+
+.imagem {
+    width: 1900px;
+    height: 50px;
+    padding-inline: 30px;
+}
+
+.undertale {
+    width: 200px;
+    height: 200px;
+}
+
+.omori {
+    width: 200px;
+    height: 200px;
+}
+
+.hollow {
+    width: 200px;
+    height: 200px;
+}
+
+.fnaf {
+    width: 200px;
+    height: 200px;
+}
+
+.under {
+    text-decoration: none;
+}
